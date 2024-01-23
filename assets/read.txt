@@ -1,0 +1,5 @@
+We are going to create a web resume or portfolio.
+Bootstrap: Responsive Web Design Framework
+Built by twitter
+CSS- 3: Flex, Grid, media Queries
+HTML 5
