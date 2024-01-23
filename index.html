@@ -74,7 +74,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            <button class="btn btn-warning">Download my CV</button>
+                            <button class="btn btn-warning "><a href="/assets/images/Resume.png" download="download name">Download my CV</a></button>
                             <!-- <ul>
                                 <li>
                                     <a href="#about">Jump to About me </a>
@@ -452,21 +452,32 @@
                         </section>
                         <section id="contact">
                             <h2>Contact</h2>
-                            <form>
-                                <div class="mb-3">
-                                    <label for="exampleInputName1" class="form-label">Enter Name</label>
-                                    <input type="text" placeholder="Enter Name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="b347b22e-0833-4602-8551-41434462b8c0">
+                                <!-- <div class="mb-3"> -->
+                                    <!-- <label for="exampleInputName1" class="form-label">Enter Name</label>
+                                    <input type="text" placeholder="Enter Name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp"> -->
+                                <!-- </div> -->
+                                <!-- <div class="mb-3"> -->
+                                  <!-- <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" placeholder="Enter Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> -->
+                                <!-- </div>
+                                <div class="mb-3"> -->
+                                    <!-- <label for="exampleFormControlTextarea1" class="form-label">Enter message</label>
+                                    <textarea placeholder="Enter Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> -->
+                                  <!-- </div> -->
+                                <!-- <button type="submit" class="btn btn-primary">Contact Me</button> -->
+                                <div class="mb-3"> 
+                                <input type="text" name="name" placeholder="Enter Name" required>
                                 </div>
-                                <div class="mb-3">
-                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                  <input type="email" placeholder="Enter Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div class="mb-3"> 
+                                <input type="email" name="email" placeholder="Enter Email" required>
                                 </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Enter message</label>
-                                    <textarea placeholder="Enter Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                  </div>
-                                <button type="submit" class="btn btn-primary">Contact Me</button>
-                              </form>
+                                <div class="mb-3"> 
+                                <textarea name="message" placeholder="Enter Message" required></textarea>
+                                </div>
+                                <button type="submit">Submit Form</button>
+                            </form>
                         </section>
                     </div>
                     
