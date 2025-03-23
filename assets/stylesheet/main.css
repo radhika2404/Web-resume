@@ -10,13 +10,13 @@
     background-size: 100% 100%;
     padding:50px 0px;
 }
-
 @media(max-width:768px){
     #container{
         padding: 0px;
     }
 }
-/* Making our portfolio responsive
+/*
+ Making our portfolio responsive
 BreakPoints:
 1400px: xxl
 1200px: xl
@@ -104,17 +104,11 @@ BreakPoints:
 }
 @media(max-width:768px){
     .wrapper, #main-nav{
-        width: 100%;;
+        width: 100%;
     }
     .wrapper{
-        height: 100%;
+        height: 90%;
     }
-    .wrapper>.row{
-        position: relative;
-        width: 100%;
-        height: auto;
-    
-    }    
 }
 
 .intro{
@@ -382,6 +376,20 @@ BreakPoints:
 #contact.show{
     transform: translateX(0%);
 }
+@media(max-width:1400px){
+    .navSmallScreen{
+        display: none;
+    }
+}
 
-
-
+@media(max-width:768px){
+    .navSmallScreen{
+        display: flex;
+        background-color: yellow; 
+        width:200px; 
+        position :absolute;
+    }
+    #container{
+        position: relative;
+    }
+}
