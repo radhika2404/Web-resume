@@ -191,6 +191,9 @@ BreakPoints:
     margin-bottom: 30px;
     border-bottom: 1px solid rgb(143, 244, 132);
 }
+#blogLogo{
+    padding-top: 20px;
+}
 #skills h4 {
     letter-spacing: 1px;
     font-size: 15px;
@@ -393,3 +396,43 @@ BreakPoints:
         position: relative;
     }
 }
+
+
+.snippet{
+    display: block;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:beige ;
+    font-size: 20px;
+    border: 2px solid gray;
+    padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
